@@ -68,3 +68,44 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+******** PROJECT STRUCTURE ********
+F -> it indecates folder. add files inside corresponding folder.
+f -> it indecates file. add files as required.
+PR-01
+    |- public
+    |   |-[All folder and files inside it]
+    |- src(F)
+    |   |- Components(F)
+    |   |   |- CommonComponents(F)
+    |   |   |   |- Navbar(F)
+    |   |   |   |- Footer(F)
+    |   |   |   |- Card(F)
+    |   |   |   |- Form(F)
+    |   |   |   |- [IF REQURIED THEN ADD CREATE OTHER COMMON COMPONENTS HERE]
+    |   |   |- Toggle(F)
+    |   |   |- About Us(F)
+    |   |   |- Contact Us(F)
+    |   |   |- Food Modal(F)
+    |   |   |- Employee Modal(F)
+    |   |   |- Successful Modal(F)
+    |   |   |- [IF REQURIED THEN ADD CREATE OTHER COMPONENTS HERE]
+    |   |- Pages(F)
+    |   |   |- Home(F)
+    |   |   |- About(F)
+    |   |   |- Contact(F)
+    |   |   |- [IF REQURIED THEN ADD CREATE PAGES HERE]
+    |   |- App.css(f)
+    |   |- App.js(f)
+    |   |- App.test.js(f)
+    |   |- index.css(f)
+    |   |- index.js(f)
+    |   |- logo.svg(f)
+    |   |- reportWebVitals.js(f)
+    |   |- setupTests.js(f)
+    |   |- [IF REQURIED THEN ADD CREATE FILE OR FOLDER OR CONFIGURATION HERE]
+    |- .gitignore(f)
+    |- package-lock.json(f)
+    |- package.json(f)
+    |- README.md(f)
+
