@@ -13,22 +13,17 @@ const Food_card = () => {
     getUsers();
   });
   return (
-    <div>
-      <h1>Items</h1>
-      <div className="card" style={{ width: "300px", height: "30px" }}>
-        <img src="/img/food.jpg" className="card-img-top" alt="img" />
-        <div className="card-body">
-          <h5 className="card-title">Item Name</h5>
-        </div>
-        <ul className="list-group list-group-flush">
-          <li className="list-group-item">Rating</li>
-          <li className="list-group-item">Description</li>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-            dicta!
-          </p>
-        </ul>
+    <div className="card" style={{width: '18rem'}}>
+      <img src="..." className="card-img-top" alt="..." />
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
       </div>
+      <ul className="list-group list-group-flush">
+        <li className="list-group-item">An item</li>
+        <li className="list-group-item">A second item</li>
+        <li className="list-group-item">A third item</li>
+      </ul>
+
     </div>
   );
 };
